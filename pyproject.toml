@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mssql2mysql"
-version = "0.1.0"
+version = "0.1.1"
 description = "MSSQL to MySQL migration tool with data, primary key and foreign key support"
 readme = "README.md"
 requires-python = ">=3.9"
