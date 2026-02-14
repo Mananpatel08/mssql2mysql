@@ -1,5 +1,9 @@
 # mssql2mysql
 
+![PyPI version](https://img.shields.io/pypi/v/mssql2mysql.svg?cacheSeconds=0)
+[![License](https://img.shields.io/pypi/l/mssql2mysql.svg)](LICENSE)
+![Python](https://img.shields.io/pypi/pyversions/mssql2mysql.svg?cacheSeconds=0)
+
 A config-driven CLI tool to migrate Microsoft SQL Server databases to MySQL. Handles data, primary keys, and foreign keys with batch processing and progress tracking.
 
 ## Features
