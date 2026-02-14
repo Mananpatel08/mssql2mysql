@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mssql2mysql"
+version = "0.1.0"
+description = "MSSQL to MySQL migration tool with data, primary key and foreign key support"
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    { name = "Manan Patel", email = "manan.work75@gmail.com" }
+]
+
+license = { text = "MIT" }
+
+keywords = ["mssql", "mysql", "migration", "database", "etl"]
+
+dependencies = [
+    "pyodbc",
+    "mysql-connector-python",
+    "PyYAML"
+]
+
+[project.scripts]
+mssql2mysql = "mssql2mysql.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/mssql2mysql"
+Repository = "https://github.com/yourusername/mssql2mysql"
+Issues = "https://github.com/yourusername/mssql2mysql/issues"
