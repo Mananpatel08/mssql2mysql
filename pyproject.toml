@@ -36,6 +36,6 @@ classifiers = [
 mssql2mysql = "mssql2mysql.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/mssql2mysql"
-Repository = "https://github.com/yourusername/mssql2mysql"
-Issues = "https://github.com/yourusername/mssql2mysql/issues"
+Homepage = "https://github.com/Mananpatel08/mssql2mysql"
+Repository = "https://github.com/Mananpatel08/mssql2mysql"
+Issues = "https://github.com/Mananpatel08/mssql2mysql/issues"
